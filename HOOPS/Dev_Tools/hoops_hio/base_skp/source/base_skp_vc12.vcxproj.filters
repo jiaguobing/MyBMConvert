@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{85b9854e-28d3-4fdc-b728-d2580232c942}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1ff4a416-00ab-439f-9e4f-1fab6df9188c}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SketchUpApi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibilityChecker.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartSuRef.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TempDirectory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InheritanceManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="data_types.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CurvesImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureWriter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentKey.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRepository.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRepository.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleRepository.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentOrganizer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PolylinesImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LinesImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTexturedShellImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupRepository.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinitionRepository.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinitionInstancesImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImporter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SketchUpApi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibilityChecker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TempDirectory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritanceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CurvesImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureWriter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRepository.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRepository.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleRepository.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentOrganizer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PolylinesImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LinesImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTexturedShellImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupRepository.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DefinitionRepository.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DefinitionInstancesImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImporter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

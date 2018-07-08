@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BCB8A7E-590E-41D0-B9E5-1EB0C83A0F69}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>hoops_stream2120_cs12</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\..\..\signing_key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HCSSTREAM</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Win32' ">
+    <OutputPath>..\..\..\bin\nt_i386_vc12d\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
+    <OutputPath>..\..\..\bin\nt_i386_vc12\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\bin\nt_x64_vc12d</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_M_X64;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\..\..\bin\nt_x64_vc12</OutputPath>
+    <DefineConstants>TRACE;_M_X64;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csharp_stream\BBaseOpcodeHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\BByteStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\BControlledMemoryObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\BPack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\BStreamFileToolkit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\BVarStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\eb_compress_configs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\eb_decompress_configs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\edgebreaker_header.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\edgebreaker_header0.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\edgebreaker_header1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\ET_Bounding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HByteStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HCSSTREAM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\hcsstreaminfo.cs" />
+    <Compile Include="csharp_stream\HCSSTREAMPINVOKE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HStreamFileToolkit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Area_Light.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Bounding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Callback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Camera.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Circle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Clip_Rectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Clip_Region.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Close_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_By_FIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_By_Index.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_By_Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_Composite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_Map.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Color_RGB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Conditions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Cutting_Plane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Cylinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Delete_Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Ellipse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Enumerated.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Font.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Glyph_Definition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Glyph_Definitions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Grid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Heuristics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Image.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Linear_Pattern.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Line_Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Line_Styles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_LOD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Matrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Mesh.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Named.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_NURBS_Curve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_NURBS_Surface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Open_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Point.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_PolyCylinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Polyhedron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Polypoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_PolyPolypoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Referenced_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Rendering_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Renumber.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Reopen_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Selectability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Shell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Size.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Sphere.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Spot_Light.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Streaming.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Text.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Texture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Texture_Definitions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Text_Font.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Unicode_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_User_Index.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_User_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_User_Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Visibility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HTK_Window.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\HT_NURBS_Trim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Instance_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Internal_Key_Array.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Internal_Key_Record.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Internal_Pending_Tag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Internal_Translator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\IT_Index_Key_Extra.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Outdent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\PutTab.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\Recorded_Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_a_2__int.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_f_unsigned_long_unsigned_long_p_void__bool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_HC_KEY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_p_BBaseOpcodeHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_p_char.cs" />
+    <Compile Include="csharp_stream\SWIGTYPE_p_unsigned_int.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\SWIGTYPE_p_wchar_t.cs" />
+    <Compile Include="csharp_stream\TKE_Object_Types.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Attribute_Lock_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Bounding_Type_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Camera_Projection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Character_Attributes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Circular_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Clip_Region_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Color_Channels.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Color_Channel_Lock_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Compression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Enumerations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Font_Greeking_Modes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Font_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Font_Preferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Font_Renderers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Font_Type.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Generic_Size_Units.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Geometry_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Heuristic_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Image_Formats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Light_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Map_Format.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Rendering_Option_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Spot_Light_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Application_Modes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Channel_Mappings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Filters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Layouts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Option_Bits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Param_Functions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Param_Sources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Texture_Tilings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Text_Encodings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Text_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Text_Region_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TKO_Thumbnail_Formats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Area_Light.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Bounding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Callback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Camera.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Character_Attribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Circle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Clip_Rectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Clip_Region.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Close_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color_By_FIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color_By_Index.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color_By_Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color_Map.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Color_RGB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Comment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Compression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Conditions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Cutting_Plane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Cylinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Debug_Logging_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Default.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Delete_Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Dictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Dictionary_Locater.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Dictionary_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Ellipse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Enumerated.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_External_Reference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_File_Info.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_File_Read_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_File_Write_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Font.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Geometry_Attributes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Glyph_Definition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Grid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Header.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Heuristics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Image.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Image_Data_Buffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Linear_Pattern.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Line_Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_LOD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Matrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Mesh.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Named.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_NURBS_Curve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_NURBS_Surface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Open_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Point.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_PolyCylinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Polyhedron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Polypoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_PolyPolypoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Referenced_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Rendering_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Renumber.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Reopen_Segment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Selectability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Shell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Size.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Sphere.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Spot_Light.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Status.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Streaming.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Tag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Terminator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Text.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Texture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Text_Font.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Thumbnail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Unavailable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Unicode_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_URL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_User_Data.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_User_Index.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_User_Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_User_Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Visibility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_Window.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\TK_XML.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csharp_stream\varstream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>set signfile="$(ProjectDir)..\..\..\signing_key.snk"
+if not exist %25signfile%25 call "$(DevEnvDir)..\Tools\vsvars32.bat" &amp; sn -k %25signfile%25</PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

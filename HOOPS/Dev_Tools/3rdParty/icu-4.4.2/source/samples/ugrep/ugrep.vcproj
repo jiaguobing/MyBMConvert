@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?><VisualStudioProject Name="ugrep" ProjectGUID="{63166CEB-02CC-472C-B3B7-E6C559939BDA}" ProjectType="Visual C++" TargetFrameworkVersion="131072" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Release" Name="Release|Win32" OutputDirectory=".\x86\Release" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TypeLibraryName=".\x86\Release\ugrep.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include" AssemblerListingLocation=".\x86\Release\" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="2" Name="VCCLCompilerTool" ObjectFile=".\x86\Release\" Optimization="2" PrecompiledHeaderFile=".\x86\Release\ugrep.pch" PreprocessorDefinitions="WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE" ProgramDataBaseFileName=".\x86\Release\" RuntimeLibrary="2" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="icuuc.lib icuin.lib" AdditionalLibraryDirectories="..\..\..\lib" AdditionalOptions="/FIXED:NO" DataExecutionPrevention="0" GenerateDebugInformation="false" LinkIncremental="1" Name="VCLinkerTool" OutputFile=".\x86\Release\ugrep.exe" ProgramDatabaseFile=".\x86\Release\ugrep.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Release" Name="Release|x64" OutputDirectory=".\x64\Release" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName=".\x64\Release\ugrep.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include" AssemblerListingLocation=".\x64\Release\" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="2" Name="VCCLCompilerTool" ObjectFile=".\x64\Release\" Optimization="2" PrecompiledHeaderFile=".\x64\Release\ugrep.pch" PreprocessorDefinitions="WIN64;WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE" ProgramDataBaseFileName=".\x64\Release\" RuntimeLibrary="2" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="icuuc.lib icuin.lib" AdditionalLibraryDirectories="..\..\..\lib64" AdditionalOptions="/FIXED:NO" DataExecutionPrevention="0" GenerateDebugInformation="false" LinkIncremental="1" Name="VCLinkerTool" OutputFile=".\x64\Release\ugrep.exe" ProgramDatabaseFile=".\x64\Release\ugrep.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Debug" Name="Debug|Win32" OutputDirectory=".\x86\Debug" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TypeLibraryName=".\x86\Debug\ugrep.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include" AssemblerListingLocation=".\x86\Debug\" BasicRuntimeChecks="3" CompileAs="0" DebugInformationFormat="4" Name="VCCLCompilerTool" ObjectFile=".\x86\Debug\" Optimization="0" PrecompiledHeaderFile=".\x86\Debug\ugrep.pch" PreprocessorDefinitions="WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE" ProgramDataBaseFileName=".\x86\Debug\" RuntimeLibrary="3" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="icuucd.lib icuind.lib" AdditionalLibraryDirectories="..\..\..\lib" DataExecutionPrevention="0" GenerateDebugInformation="true" Name="VCLinkerTool" OutputFile=".\x86\Debug\ugrep.exe" ProgramDatabaseFile=".\x86\Debug\ugrep.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Debug" Name="Debug|x64" OutputDirectory=".\x64\Debug" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName=".\x64\Debug\ugrep.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include" AssemblerListingLocation=".\x64\Debug\" BasicRuntimeChecks="3" CompileAs="0" DebugInformationFormat="3" Name="VCCLCompilerTool" ObjectFile=".\x64\Debug\" Optimization="0" PrecompiledHeaderFile=".\x64\Debug\ugrep.pch" PreprocessorDefinitions="WIN64;WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE" ProgramDataBaseFileName=".\x64\Debug\" RuntimeLibrary="3" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="icuucd.lib icuind.lib" AdditionalLibraryDirectories="..\..\..\lib64" DataExecutionPrevention="0" GenerateDebugInformation="true" Name="VCLinkerTool" OutputFile=".\x64\Debug\ugrep.exe" ProgramDatabaseFile=".\x64\Debug\ugrep.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat" Name="Source Files">
+			<File RelativePath="ugrep.cpp">
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BasicRuntimeChecks="3" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BasicRuntimeChecks="3" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl" Name="Header Files">
+		</Filter>
+		<Filter Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe" Name="Resource Files">
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

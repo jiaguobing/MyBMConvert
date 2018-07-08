@@ -1,0 +1,25 @@
+/*
+--------------------------------------------------
+Tech Soft 3D - Generated Unified License File
+  for: Spatial Corp.
+--------------------------------------------------
+
+Expires: Never
+Customer: Spatial Corp.
+Products: Visualize
+Visualize: 3DF_VERSION_2199 HPS_VERSION_299 Mobile
+
+
+NOTICE:
+When passing VISUALIZE_LICENSE into Define_System_Options in 3DF the license string needs
+to be quoted in back-ticks.
+
+Define_System_Options("license = `your_license_here`");
+
+*/
+
+#ifndef VISUALIZE_LICENSE_DEFINED
+#	define VISUALIZE_LICENSE_DEFINED
+#	define VISUALIZE_LICENSE "4BUMCgQL4xq28AY_0Ba50ANc1i2zAxQLvU3kwQMWCgU2CiI3j7DFjBba3DiYBDJ39TJvrBRyCiExj7F48ER65zr18zqQ0VndBTQ7Airu1zq6xSEY4QVcBCb86izs2DYR3zjnBwFyxSn1AifvDRi22yvkxE2z2ffnDBjr1eYHEfQQ9yZbwyNrww6LvURy1AENAyuL3gM05EmW9UEL1uY39yI5vURdBiuNzSaH2wrs0UBaAzfa0wv291dNj7EUDSa2urHFjAQGwVhGj7DF1Cv3x7DFj7Fm3AIJj7DFjBeTvCUGvBJkvCZs9UJc2yyM7TmQ5BbzBTbt4Cv00xbmChU6wBJt7SUKBuNv6gJyACi_4hR$DjqL1Bn7xyI_9xnx2CI_wEB3BCfmDU6K8BV98QE74ja_Bgz62ziz8uN98EZu8Cft4SjtEfM2CgbdxSfzBCflARaGxyZw4EbpCeF10hUK5CQV3vjb5vR7xEU8xDqMDyi2xvaK8ymI1DRu8uR30g3yDQRbDAU69eYHwuYP9UiWCUy23iMH5gf5AiuVDhjsDCvkvDq30fJuxEyL0Sbc9CI62yiU0DiG5TNb8giTwhIYBS6T3BVsDEeI5wuTzRizARRkxyEIBCJdCxr63i3wEgqTByrsxiqz9wi89uUQwQM8Bwj5wQVqwCA82CMT7ReTBi241AM20RVbBi7u4Uzs4eIVCw2_4wm83gR8CwZlwVmGwEB33w2QDi218eI_vEQN2AJ33ge1DimJ1CzqBi3$BQF0EfJz0g344EuI3Cjsxg39zUJ7BSb14xR23jf8DSqN0SF4wBN00iiIvUBowCnu8CqYAUnq5SEIDgIzEii_2EBw8geQ8i3v8eNqAhn3CCJ5CuV01giQ1UJowuVdxeEYwTbpwEb78vMG0SIUDiEG3jby6jqzADUOvTQQ0w3zwfUW1CYOwxV22gZ13gMP3xm7xVaK1UmU5veM4TZdwFa32Rn7Dfe6xUf6wxj5EhQS9vnk5zb45CI45EYR8hJdDBMMAFb31CRcACqQwUNxwhUHADfuAzeKAjns3SQPBfIICVn$zSrd1g2O7UqG1haH9wM_vDfpAjmX0CM2BCj75SAP3yr4CjeH5hfw9xrbCguN0VqYDFeH5Uns1eZ$DvQJ9g6_2EMK9SVa0yJ9DFeP1UMNwCjn9wu7DEz5BQV$4SBkvBVcChiQBTmR7QZx3wU21DbpvUUO9EAzvUfaBgA48SBuDjj54iE0zRZ4CEiQ3VizwibovBIRxiVnAEjs0SR29jrl3g322QMV4fnpAwzl8hU2ASaz0UaQzQFvvUFl4Ury0eZ10fV83DaJwEAYAC6U4eR3BwfpxTfu5iZxByvmBeJ2wBjmj5"
+#endif
+

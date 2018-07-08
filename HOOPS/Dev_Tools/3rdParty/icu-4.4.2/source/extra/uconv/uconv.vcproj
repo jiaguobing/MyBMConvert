@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?><VisualStudioProject Name="uconv" ProjectGUID="{DBA4088D-F6F9-4F8F-8820-082A4765C16C}" ProjectType="Visual C++" TargetFrameworkVersion="131072" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Release" Name="Release|Win32" OutputDirectory=".\x86\Release" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool CommandLine="copy &quot;$(TargetPath)&quot; ..\..\..\bin&#13;&#10;" Name="VCCustomBuildTool" Outputs="$(ProjectDir)..\..\..\bin\$(TargetFileName)"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TypeLibraryName=".\x86\Release\uconv.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include;..\..\common" AssemblerListingLocation=".\x86\Release\" CompileAs="0" DisableLanguageExtensions="true" EnableFunctionLevelLinking="true" Name="VCCLCompilerTool" ObjectFile=".\x86\Release\" PrecompiledHeaderFile=".\x86\Release\uconv.pch" PreprocessorDefinitions="WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;UCONVMSG_LINK" ProgramDataBaseFileName=".\x86\Release\" RuntimeLibrary="2" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="uconvmsg.lib" AdditionalLibraryDirectories="x86\Release" DataExecutionPrevention="0" GenerateDebugInformation="false" LinkIncremental="1" Name="VCLinkerTool" OutputFile=".\x86\Release\uconv.exe" ProgramDatabaseFile=".\x86\Release\uconv.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Debug" Name="Debug|Win32" OutputDirectory=".\x86\Debug" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool CommandLine="copy &quot;$(TargetPath)&quot; ..\..\..\bin&#13;&#10;" Name="VCCustomBuildTool" Outputs="$(ProjectDir)..\..\..\bin\$(TargetFileName)"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TypeLibraryName=".\x86\Debug\uconv.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include;..\..\common" AssemblerListingLocation=".\x86\Debug\" BasicRuntimeChecks="3" BufferSecurityCheck="true" CompileAs="0" DebugInformationFormat="4" DisableLanguageExtensions="true" Name="VCCLCompilerTool" ObjectFile=".\x86\Debug\" Optimization="0" PrecompiledHeaderFile=".\x86\Debug\uconv.pch" PreprocessorDefinitions="WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;UCONVMSG_LINK" ProgramDataBaseFileName=".\x86\Debug\" RuntimeLibrary="3" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="uconvmsg.lib" AdditionalLibraryDirectories="x86\Debug" DataExecutionPrevention="0" GenerateDebugInformation="true" LinkIncremental="2" Name="VCLinkerTool" OutputFile=".\x86\Debug\uconv.exe" ProgramDatabaseFile=".\x86\Debug\uconv.pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool" UseFAT32Workaround="true"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Release" Name="Release|x64" OutputDirectory=".\x64\Release" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool CommandLine="copy &quot;$(TargetPath)&quot; ..\..\..\bin64&#13;&#10;" Name="VCCustomBuildTool" Outputs="$(ProjectDir)..\..\..\bin64\$(TargetFileName)"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName=".\x64\Release\uconv.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include;..\..\common" AssemblerListingLocation=".\x64\Release\" CompileAs="0" DisableLanguageExtensions="true" EnableFunctionLevelLinking="true" Name="VCCLCompilerTool" ObjectFile=".\x64\Release\" PrecompiledHeaderFile=".\x64\Release\uconv.pch" PreprocessorDefinitions="WIN64;WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;UCONVMSG_LINK" ProgramDataBaseFileName=".\x64\Release\" RuntimeLibrary="2" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="uconvmsg.lib" AdditionalLibraryDirectories="x64\Release" GenerateDebugInformation="false" LinkIncremental="1" Name="VCLinkerTool" OutputFile=".\x64\Release\uconv.exe" ProgramDatabaseFile=".\x64\Release\uconv.pdb" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCWebDeploymentTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Debug" Name="Debug|x64" OutputDirectory=".\x64\Debug" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool CommandLine="copy &quot;$(TargetPath)&quot; ..\..\..\bin64&#13;&#10;" Name="VCCustomBuildTool" Outputs="$(ProjectDir)..\..\..\bin64\$(TargetFileName)"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName=".\x64\Debug\uconv.tlb"/>
+			<Tool AdditionalIncludeDirectories="..\..\..\include;..\..\common" AssemblerListingLocation=".\x64\Debug\" BasicRuntimeChecks="3" BufferSecurityCheck="true" CompileAs="0" DebugInformationFormat="3" DisableLanguageExtensions="true" Name="VCCLCompilerTool" ObjectFile=".\x64\Debug\" Optimization="0" PrecompiledHeaderFile=".\x64\Debug\uconv.pch" PreprocessorDefinitions="WIN64;WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;UCONVMSG_LINK" ProgramDataBaseFileName=".\x64\Debug\" RuntimeLibrary="3" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="uconvmsg.lib" AdditionalLibraryDirectories="x64\Debug" GenerateDebugInformation="true" LinkIncremental="2" Name="VCLinkerTool" OutputFile=".\x64\Debug\uconv.exe" ProgramDatabaseFile=".\x64\Debug\uconv.pdb" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool" UseFAT32Workaround="true"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCWebDeploymentTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat" Name="Source Files">
+			<File RelativePath=".\uconv.cpp">
+			</File>
+			<File RelativePath=".\uwmsg.c">
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl" Name="Header Files">
+			<File RelativePath=".\unicode\uwmsg.h">
+			</File>
+		</Filter>
+		<Filter Filter="txt" Name="Resource Bundles">
+			<File RelativePath=".\resources\fr.txt">
+			</File>
+			<File RelativePath=".\resources\root.txt">
+			</File>
+		</Filter>
+		<Filter Filter="mak;mk;bat" Name="Build Scripts">
+			<File RelativePath=".\makedata.mak">
+				<FileConfiguration Name="Release|Win32">
+					<Tool CommandLine="nmake /nologo /f $(InputName).mak icup=&quot;$(ProjectDir)..\..\..&quot; CFG=x86\Release&#13;&#10;" Name="VCCustomBuildTool" Outputs="x86\Release\uconvmsg.lib"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|Win32">
+					<Tool CommandLine="nmake /nologo /f $(InputName).mak icup=&quot;$(ProjectDir)..\..\..&quot; CFG=x86\Debug&#13;&#10;" Name="VCCustomBuildTool" Outputs="x86\Debug\uconvmsg.lib"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool CommandLine="nmake /nologo /f $(InputName).mak icup=&quot;$(ProjectDir)..\..\..&quot; CFG=x64\Release&#13;&#10;" Name="VCCustomBuildTool" Outputs="x64\Release\uconvmsg.lib"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool CommandLine="nmake /nologo /f $(InputName).mak icup=&quot;$(ProjectDir)..\..\..&quot; CFG=x64\Debug&#13;&#10;" Name="VCCustomBuildTool" Outputs="x64\Debug\uconvmsg.lib"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\resfiles.mk">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

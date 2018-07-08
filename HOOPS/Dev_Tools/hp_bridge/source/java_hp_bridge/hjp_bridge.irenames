@@ -1,0 +1,30 @@
+%rename(Init) HP_Init;
+%rename(Update) HP_Update;
+%rename(Close) HP_Close;
+%rename(Read_Xmt_File) HP_Read_Xmt_File;
+%rename(Write_Xmt_File) HP_Write_Xmt_File;
+%rename(Delete_Entity_Geometry) HP_Delete_Entity_Geometry;
+%rename(Render_Entities) HP_Render_Entities;
+%rename(Render_Entity) HP_Render_Entity;
+%rename(Update_Entity) HP_Update_Entity;
+%rename(Show_Tessellation_Options) HP_Show_Tessellation_Options;
+%rename(Set_Tessellation_Options) HP_Set_Tessellation_Options;
+%rename(Compute_Geometry_Keys) HP_Compute_Geometry_Keys;
+%rename(Compute_Geometry_Key_Count) HP_Compute_Geometry_Key_Count;
+%rename(Compute_TagID) HP_Compute_TagID;
+%rename(Set_Rendering_Options) HP_Set_Rendering_Options;
+%rename(Show_Rendering_Options) HP_Show_Rendering_Options;
+%rename(Show_One_Rendering_Option) HP_Show_One_Rendering_Option;
+%rename(CheckConsistency) HP_CheckConsistency;
+%rename(Get_Schema_Path) HP_Get_Schema_Path;
+%rename(Set_Schema_Path) HP_Set_Schema_Path;
+%rename(Get_Hash_Level) HP_Get_Hash_Level;
+%rename(Set_Hash_Level) HP_Set_Hash_Level;
+%rename(Set_Instances_To_Bodies) HP_Set_Instances_To_Bodies;
+%rename(Get_Instances_To_Bodies) HP_Get_Instances_To_Bodies;
+%rename(Check_Consistency) HP_Check_Consistency;
+%rename(Associate_Key_To_Entity) HP_Associate_Key_To_Entity;
+%rename(Compute_Selected_Entity_List) HP_Compute_Selected_Entity_List;
+
+
+

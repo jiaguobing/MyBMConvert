@@ -1,0 +1,24 @@
+
+
+== Building hioexchange.hio ==
+
+Before you can compile hio_exchange for linux, you MUST set the environment
+variable HEXCHANGE_INSTALL_DIR.  Mine is set like this...
+
+$ export HEXCHANGE_INSTALL_DIR=/usr/local/HOOPS_Exchange_4.20
+
+You must also download HOOPS_Exchange_4.20 and extract it to /usr/local (or
+somewhere else as long as your HEXCHANGE_INSTALL_DIR environment variable matches).
+
+
+== Running hioexchange_test ==
+
+You will not be able to successfully run hioexchange_test without also setting
+an environment variable for the HOOP_Exchange license key.  Set the
+environment variable PUBLISH_EXCHANGE_DEBUG_KEY.  My is set like this...
+
+$ export PUBLISH_EXCHANGE_DEBUG_KEY="$CUSTOMER_KEY;$VARIABLE_KEY"
+
+The quotes are important. You should use your own customer and variable
+keys.
+                             

@@ -1,0 +1,33 @@
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(854AC32B-953A-4494-A9B4-B26781F5F4D9),
+		dual,
+		helpstring("IHsfShellExt Interface"),
+		pointer_default(unique)
+	]
+	interface IHsfShellExt : IDispatch
+	{
+	};
+
+[
+	uuid(B8C2FE66-EDB8-4765-8A47-6BBDC9B28899),
+	version(1.0),
+	helpstring("HsfShellExt 1.0 Type Library")
+]
+library HSFSHELLEXTLIB
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(100FBABC-9D73-11DE-9433-45DD55D89593),
+		helpstring("HsfShellExt Class")
+	]
+	coclass HsfShellExt
+	{
+		[default] interface IHsfShellExt;
+	};
+};
