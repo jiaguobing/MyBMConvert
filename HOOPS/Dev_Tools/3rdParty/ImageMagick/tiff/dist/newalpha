@@ -1,0 +1,8 @@
+#! /bin/sh
+#	$Header: /mnt/ssd/trasko/visualize/hoops_3df/Dev_Tools/3rdParty/ImageMagick/tiff/dist/newalpha,v 1.1 2006-02-02 21:12:43 stage Exp $
+if test -r tiff.alpha; then
+    ALPHA=`cat tiff.alpha`; rm -f tiff.alpha
+    echo "$ALPHA" | awk '{ printf "define ALPHA %1d\n", $3+1}' > tiff.alpha
+else
+    echo "define ALPHA 001" >tiff.alpha
+fi

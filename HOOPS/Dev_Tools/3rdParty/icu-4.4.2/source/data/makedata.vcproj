@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?><VisualStudioProject Keyword="MakeFileProj" Name="makedata" ProjectGUID="{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}" ProjectType="Visual C++" TargetFrameworkVersion="131072" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" BuildLogFile=".\out\tmp\x86\ReleaseBuildLog.html" ConfigurationType="0" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Release" Name="Release|Win32" OutputDirectory=".\x86\Release" UseOfMFC="0">
+			<Tool AssemblySearchPath="" BuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Release" CleanCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Release clean" CompileAsManaged="" ForcedIncludes="" ForcedUsingAssemblies="" IncludeSearchPath="" Name="VCNMakeTool" Output="" PreprocessorDefinitions="" ReBuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Release clean all"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" BuildLogFile=".\out\tmp\x86\DebugBuildLog.html" ConfigurationType="0" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x86\Debug" Name="Debug|Win32" OutputDirectory=".\x86\Debug" UseOfMFC="0">
+			<Tool AssemblySearchPath="" BuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Debug" CleanCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Debug clean" CompileAsManaged="" ForcedIncludes="" ForcedUsingAssemblies="" IncludeSearchPath="" Name="VCNMakeTool" Output="" PreprocessorDefinitions="" ReBuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x86\Debug clean all"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" BuildLogFile=".\out\tmp\x64\ReleaseBuildLog.html" ConfigurationType="0" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Release" Name="Release|x64" OutputDirectory=".\x64\Release" UseOfMFC="0">
+			<Tool AssemblySearchPath="" BuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Release" CleanCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Release clean" CompileAsManaged="" ForcedIncludes="" ForcedUsingAssemblies="" IncludeSearchPath="" Name="VCNMakeTool" Output="" PreprocessorDefinitions="" ReBuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Release clean all"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" BuildLogFile=".\out\tmp\x64\DebugBuildLog.html" ConfigurationType="0" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory=".\x64\Debug" Name="Debug|x64" OutputDirectory=".\x64\Debug" UseOfMFC="0">
+			<Tool AssemblySearchPath="" BuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Debug" CleanCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Debug clean" CompileAsManaged="" ForcedIncludes="" ForcedUsingAssemblies="" IncludeSearchPath="" Name="VCNMakeTool" Output="" PreprocessorDefinitions="" ReBuildCommandLine="NMAKE /f makedata.mak ICUMAKE=&quot;$(ProjectDir)\&quot; CFG=x64\Debug clean all"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe" Name="Resource Files">
+		</Filter>
+		<Filter Filter="mak;mk" Name="Make Files">
+			<File RelativePath=".\brkitr\brkfiles.mk">
+			</File>
+			<File RelativePath=".\coll\colfiles.mk">
+			</File>
+			<File RelativePath=".\makedata.mak">
+			</File>
+			<File RelativePath=".\misc\miscfiles.mk">
+			</File>
+			<File RelativePath=".\rbnf\rbnffiles.mk">
+			</File>
+			<File RelativePath=".\locales\resfiles.mk">
+			</File>
+			<File RelativePath="..\test\testdata\testdata.mak">
+			</File>
+			<File RelativePath=".\translit\trnsfiles.mk">
+			</File>
+			<File RelativePath="..\test\testdata\tstfiles.mk">
+			</File>
+			<File RelativePath=".\mappings\ucmcore.mk">
+			</File>
+			<File RelativePath=".\mappings\ucmebcdic.mk">
+			</File>
+			<File RelativePath=".\mappings\ucmfiles.mk">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

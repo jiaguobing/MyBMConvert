@@ -1,0 +1,31 @@
+<A3D_Settings SettingsScaleModeValue="0" 
+SettingsDisplayUnits="-1" 
+SettingsModelUnitsType="3" 
+SettingsModelUnitsValue="2" 
+SettingsModelUnitsFlag="true" 
+SettingsNumberOfPMIDigits="2" 
+SettingsSubstitutionFont="Myriad Pro" 
+SettingsAlwaysSubstituteFontFlag="false" 
+SettingsImportAttributesFlag="true" 
+SettingsImport3DDrawingsFlag="false" 
+SettingsImportActiveFilterFlag="true" 
+SettingsImportConstructionFlag="false" 
+SettingsImportSurfacesFlag="true" 
+SettingsImportTextFlag="true" 
+SettingsImportSolidsFlag="true" 
+SettingsImportWireFlag="true" 
+SettingsDispalyHiddenFlag="false" 
+SettingsImportHiddenFlag="true" 
+SettingsNormalTolValue="40" 
+SettingsSurfaceTolValue="600" 
+SettingsStreamValue="2">
+<assemblyOptions>
+<UseRootDirectory value="true"/>
+<Recursive value="false"/>
+<cacheActivation value="false"/>
+</assemblyOptions>
+<FontDirectories/>
+</A3D_Settings>
+
+
+

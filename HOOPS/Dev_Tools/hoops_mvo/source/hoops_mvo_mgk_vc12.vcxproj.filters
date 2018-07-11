@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{042d382f-923b-488c-908c-b3a03ba57ff9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d92b2b5d-38a5-4d22-9793-81f76f21fec1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4d64f42f-2f87-4307-8031-e6f1296fff08}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="zlib-1.2.5">
+      <UniqueIdentifier>{ab3ab87d-0c65-4c4f-8bce-86a02259dbaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HBaseModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBaseOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBaseView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvBehaviorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvTimeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HBhvUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HConstantFramerate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HDebugZBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HErrorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HEventInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HEventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HImCuttingGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HImErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HImHideOverlappedText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HImManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HImUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityHOOPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityHsf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityHTML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityIV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityMagick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityPDF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityPly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityPointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityStl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIOUtilityVRML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMarkupManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMaterialLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HModelInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraManipulate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraOrbit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraOrbitTurntable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraPan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraRelativeOrbit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraWalk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraZoomBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructCone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructCuboid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructNurbsCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructPolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpConstructSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateBoolean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateCone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateCuboid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateCuttingPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateNurbs3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateNurbsCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreatePolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCreateSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupAnnotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupFreehand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupPostIt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMarkupRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpMoveHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpNavCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpObjectAnnotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpObjectClash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpObjectRotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpObjectTranslate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpSelectAperture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpSelectArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpSelectPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpSelectPolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HSelectionItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HSelectionSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HSharedKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HSnapGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTCObjectRotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUndoManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityAnnotationMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityAntialiasing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityGeometryCreation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityGeomHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityQuadTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityShadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilitySparseShell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilitySubwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilitySubwindow2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityTextParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityXMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtilityPMI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\adler32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\compress.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\crc32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\deflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzclose.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzlib.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzread.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzwrite.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\infback.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inffast.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inftrees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\trees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\uncompr.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\zutil.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraManipulateTouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraPanTouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraRollTouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOpCameraZoomTouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hoops_mvo_mgk.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HBaseModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBaseOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBaseView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvBehaviorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvTimeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBhvUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HConstantFramerate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDebugZBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HErrorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HEventInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HEventListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HEventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HImCuttingGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HImErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HImHideOverlappedText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HImManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HImUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityHOOPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityHsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityHTML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityIV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityMagick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityPDF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityPly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityPointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityStl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIOUtilityVRML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMarkupManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMaterialLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HModelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraManipulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraOrbit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraOrbitTurntable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraPan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraRelativeOrbit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraWalk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraZoomBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructCone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructCuboid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructNurbsCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructPolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructRectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpConstructSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateBoolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateCone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateCuboid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateCuttingPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateNurbs3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateNurbsCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreatePolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateRectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCreateSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupAnnotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupFreehand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupPostIt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMarkupRectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpMoveHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpNavCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpObjectAnnotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpObjectClash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpObjectRotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpObjectTranslate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpSelectAperture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpSelectArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpSelectPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpSelectPolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HPShowCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSelectionItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSelectionSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSharedKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSnapGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTCObjectRotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUndoManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityAnnotationMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityAntialiasing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityGeometryCreation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityGeomHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityLocaleString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityQuadTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityShadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilitySparseShell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilitySubwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilitySubwindow2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityTextParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityXMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtilityPMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\crc32.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\deflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\gzguts.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inffast.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inffixed.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inftrees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\trees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\win_zconf.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\zlib.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\zutil.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraManipulateTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraPanTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraRollTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOpCameraZoomTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

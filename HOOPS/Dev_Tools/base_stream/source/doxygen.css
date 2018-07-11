@@ -1,0 +1,59 @@
+H1 { font-family: Verdana, Arial, Helvetica; text-align: center; font-size: large;}
+h2 { font-family: Verdana, Arial, Helvetica; font-size: small; font-style: normal; font-weight: bold;}
+code   { font-family: Courier; font-size: x-small; font-style: normal}
+pre   { font-family: Courier; font-size: x-small; font-style: normal}
+CAPTION { font-family: Verdana, Arial, Helvetica; font-weight: bold; font-size: x-small }
+A.qindex {font-family: Verdana, Arial, Helvetica; font-size: x-small}
+A.qindexRef {font-family: Verdana, Arial, Helvetica; font-size: x-small}
+A.el { font-family: Verdana, Arial, Helvetica;text-decoration: none; font-size: x-small; font-weight: bold }
+A.elRef { font-family: Verdana, Arial, Helvetica; font-size: x-small; font-weight: bold }
+A.code { font-family: Verdana, Arial, Helvetica;text-decoration: none; font-weight: normal; font-size: x-small; color: #4444ee }
+A.codeRef { font-family: Verdana, Arial, Helvetica;font-weight: normal; font-size: x-small; color: #4444ee }
+A:hover { font-family: Verdana, Arial, Helvetica;text-decoration: none; font-size: x-small; background-color: #f2f2ff }
+DL.el { font-family: Verdana, Arial, Helvetica;margin-left: -1cm; font-size: x-small }
+DIV.fragment { font-family: Verdana, Arial, Helvetica;width: 100%; border: none;font-size: x-small; background-color: #eeeeee }
+DIV.ah { font-family: Verdana, Arial, Helvetica;background-color: black; font-size: x-small; font-weight: bold; color: #ffffff; margin-bottom: 3px; margin-top: 3px }
+TD.md { font-family: Verdana, Arial, Helvetica;background-color: #f2f2ff; font-size: x-small; font-weight: bold; }
+TD.mdname1 { font-family: Verdana, Arial, Helvetica;background-color: #f2f2ff; font-weight: bold; font-size: x-small; color: #602020; }
+TD.mdname { font-family: Verdana, Arial, Helvetica;background-color: #f2f2ff; font-weight: bold; font-size: x-small; color: #602020; width: 600px; }
+DIV.groupHeader { font-family: Verdana, Arial, Helvetica;margin-left: 16px; margin-top: 12px; margin-bottom: 6px; font-size: x-small; font-weight: bold }
+DIV.groupText { font-family: Verdana, Arial, Helvetica;margin-left: 16px; font-style: italic; font-size: x-small }
+BODY { font-family: Verdana, Arial, Helvetica;background: white; color: black; font-size: x-small }
+P { font-family: Verdana, Arial, Helvetica;background: white; color: black; font-size: x-small }
+TD { font-family: Verdana, Arial, Helvetica;background: white; color: black; font-size: x-small }
+EM.mdesc { font-family: Verdana, Arial, Helvetica;font-size: x-small }
+TD.indexkey {
+   font-family: Verdana, Arial, Helvetica;
+   background-color: #eeeeff; 
+   font-weight: bold;
+   font-size: x-small; 
+   padding-right  : 10px; 
+   padding-top    : 2px; 
+   padding-left   : 10px; 
+   padding-bottom : 2px; 
+   margin-left    : 0px; 
+   margin-right   : 0px; 
+   margin-top     : 2px; 
+   margin-bottom  : 2px  
+}
+TD.indexvalue { 
+   font-family: Verdana, Arial, Helvetica;
+   background-color: #eeeeff; 
+   font-style: italic;
+   font-size: x-small; 
+   padding-right  : 10px; 
+   padding-top    : 2px; 
+   padding-left   : 10px; 
+   padding-bottom : 2px; 
+   margin-left    : 0px; 
+   margin-right   : 0px; 
+   margin-top     : 2px; 
+   margin-bottom  : 2px  
+}
+span.keyword       { font-family: Verdana, Arial, Helvetica;color: #008000; font-size: x-small }
+span.keywordtype   { font-family: Verdana, Arial, Helvetica;color: #604020; font-size: x-small }
+span.keywordflow   { font-family: Verdana, Arial, Helvetica;color: #e08000; font-size: x-small }
+span.comment       { font-family: Verdana, Arial, Helvetica;color: #800000; font-size: x-small }
+span.preprocessor  { font-family: Verdana, Arial, Helvetica;color: #806020; font-size: x-small }
+span.stringliteral { font-family: Verdana, Arial, Helvetica;color: #002080; font-size: x-small }
+span.charliteral   { font-family: Verdana, Arial, Helvetica;color: #008080; font-size: x-small }

@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="12.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7E2719B-91E5-48D7-A846-CD3872A0BDC7}</ProjectGuid>
+    <RootNamespace>hio_skp_vc12</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="../../../../main.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="../../../../main.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="../../../../main.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="../../../../main.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hioskp$(HOOPS3DFVER)d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hioskp$(HOOPS3DFVER)</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\bin\nt_i386_vc12d\hio_plugins\hio_skp\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug_nt_i386_vc12_hio_skp\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\bin\nt_i386_vc12\hio_plugins\hio_skp\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release_nt_i386_vc12_hio_skp\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.hio</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.hio</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\bin\nt_x64_vc12d\hio_plugins\hio_skp\</OutDir>
+    <IntDir>Debug_nt_x64_vc12_hio_skp\</IntDir>
+    <TargetExt>.hio</TargetExt>
+    <LibraryPath>$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <TargetName>hioskp$(HOOPS3DFVER)_x64d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);$(FrameworkSDKDir)\include</IncludePath>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\bin\nt_x64_vc12\hio_plugins\hio_skp\</OutDir>
+    <IntDir>Release_nt_x64_vc12_hio_skp\</IntDir>
+    <TargetExt>.hio</TargetExt>
+    <LibraryPath>$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <TargetName>hioskp$(HOOPS3DFVER)_x64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\hoops_3dgs\source;..\..\..\hoops_mvo\source;..\..\..\utility\source;..\..\base_skp\source;$(SKP_SDK_INSTALL_DIR)\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HIO_SKP;DEBUG;_DEBUG;WIN32;_AFXDLL;_WINDOWS;_USRDLL;HOOPS_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <AssemblerListingLocation>.\Debug_nt_i386_vc12_hio_skp\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug_nt_i386_vc12_hio_skp\</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hoops_utilsstatd_md.lib;hoops_mvo_mgkd.lib;hoopsd.lib;baseskp$(HOOPS3DFVER)d.lib;slapi.lib;Shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\hoops_3dgs\lib\nt_i386_vc12;..\..\..\hoops_mvo\lib\nt_i386_vc12;..\..\..\utility\lib\nt_i386_vc12;..\..\base_skp\lib\nt_i386_vc12;$(SKP_SDK_INSTALL_DIR)\binaries\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalManifestDependencies>%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>
+      </AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>
+      </MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers />
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y $(SKP_SDK_INSTALL_DIR)\binaries\x86\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy SKP dlls to hio directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\hoops_3dgs\source;..\..\..\hoops_mvo\source;..\..\..\utility\source;..\..\base_skp\source;$(SKP_SDK_INSTALL_DIR)\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HIO_SKP;WIN32;_WINDOWS;_USRDLL;_AFXDLL;NDEBUG;HOOPS_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <CompileAs>Default</CompileAs>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hoops_utilsstat_md.lib;hoops_mvo_mgk.lib;hoops.lib;slapi.lib;baseskp$(HOOPS3DFVER).lib;Shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\hoops_3dgs\lib\nt_i386_vc12;..\..\..\hoops_mvo\lib\nt_i386_vc12;..\..\..\utility\lib\nt_i386_vc12;..\..\base_skp\lib\nt_i386_vc12;$(SKP_SDK_INSTALL_DIR)\binaries\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>..\lib\nt_i386_vc12\hioskp.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers />
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y $(SKP_SDK_INSTALL_DIR)\binaries\x86\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy SKP dlls to hio directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\hoops_3dgs\source;..\..\..\hoops_mvo\source;..\..\..\utility\source;..\..\base_skp\source;$(SKP_SDK_INSTALL_DIR)\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OmitFramePointers>false</OmitFramePointers>
+      <PreprocessorDefinitions>HIO_SKP;DEBUG;_DEBUG;_WINDOWS;_USRDLL;HOOPS_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerListingLocation>.\Debug_nt_x64_vc12_hio_skp\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug_nt_x64_vc12_hio_skp\</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\..\hoops_3dgs\lib\nt_x64_vc12;..\..\..\hoops_mvo\lib\nt_x64_vc12;..\..\..\utility\lib\nt_x64_vc12;..\..\base_skp\lib\nt_x64_vc12;$(SKP_SDK_INSTALL_DIR)\binaries\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>hoops_utilsstatd_md.lib;hoops_mvo_mgkd.lib;hoopsd.lib;baseskp$(HOOPS3DFVER)_x64d.lib;slapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary />
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y $(SKP_SDK_INSTALL_DIR)\binaries\x64\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy SKP dlls to hio directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\hoops_3dgs\source;..\..\..\hoops_mvo\source;..\..\..\utility\source;..\..\base_skp\source;$(SKP_SDK_INSTALL_DIR)\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>HIO_SKP;_WINDOWS;_USRDLL;HOOPS_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\..\hoops_3dgs\lib\nt_x64_vc12;..\..\..\hoops_mvo\lib\nt_x64_vc12;..\..\..\utility\lib\nt_x64_vc12;..\..\base_skp\lib\nt_x64_vc12;$(SKP_SDK_INSTALL_DIR)\binaries\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>hoops_utilsstat_md.lib;hoops_mvo_mgk.lib;hoops.lib;baseskp$(HOOPS3DFVER)_x64.lib;slapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>..\lib\nt_x64_vc12\hioskp.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y $(SKP_SDK_INSTALL_DIR)\binaries\x64\*.dll $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy SKP dlls to hio directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\hoops_mvo\source\hoops_mvo_mgk_vc12.vcxproj">
+      <Project>{641c68e4-3e46-44a1-b2f9-d84aabd75366}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\utility\source\hoops_utils_static_md_vc12.vcxproj">
+      <Project>{5b39b901-4d9e-4dc6-bf01-80a9d4e9f21c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\base_skp\source\base_skp_vc12.vcxproj">
+      <Project>{835575d7-1815-4175-8cf4-73efce1942c3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\base_skp\source\CurvesImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\data_types.h" />
+    <ClInclude Include="..\..\base_skp\source\DefinitionInstancesImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\DefinitionRepository.h" />
+    <ClInclude Include="..\..\base_skp\source\Exception.h" />
+    <ClInclude Include="..\..\base_skp\source\GeometryImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\GroupRepository.h" />
+    <ClInclude Include="..\..\base_skp\source\ImageRepository.h" />
+    <ClInclude Include="..\..\base_skp\source\ImageTexturedShellImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\InheritanceManager.h" />
+    <ClInclude Include="..\..\base_skp\source\LinesImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\ModelImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\PolylinesImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\SegmentKey.h" />
+    <ClInclude Include="..\..\base_skp\source\SegmentOrganizer.h" />
+    <ClInclude Include="..\..\base_skp\source\ShellImporter.h" />
+    <ClInclude Include="..\..\base_skp\source\SketchUpApi.h" />
+    <ClInclude Include="..\..\base_skp\source\SmartSuRef.h" />
+    <ClInclude Include="..\..\base_skp\source\StyleRepository.h" />
+    <ClInclude Include="..\..\base_skp\source\TempDirectory.h" />
+    <ClInclude Include="..\..\base_skp\source\TextureRepository.h" />
+    <ClInclude Include="..\..\base_skp\source\TextureWriter.h" />
+    <ClInclude Include="..\..\base_skp\source\Utilities.h" />
+    <ClInclude Include="..\..\base_skp\source\VisibilityChecker.h" />
+    <ClInclude Include="CurvesImporter3DF.h" />
+    <ClInclude Include="DefinitionRepository3DF.h" />
+    <ClInclude Include="GeometryImporter3DF.h" />
+    <ClInclude Include="GroupRepository3DF.h" />
+    <ClInclude Include="HIOUtilitySKP.h" />
+    <ClInclude Include="ImageRepository3DF.h" />
+    <ClInclude Include="DefinitionInstancesImporter3DF.h" />
+    <ClInclude Include="LinesImporter3DF.h" />
+    <ClInclude Include="PolylinesImporter3DF.h" />
+    <ClInclude Include="SegmentKey3DF.h" />
+    <ClInclude Include="SegmentOrganizer3DF.h" />
+    <ClInclude Include="StyleRepository3DF.h" />
+    <ClInclude Include="TextureRepository3DF.h" />
+    <ClInclude Include="ImageTexturedShellImporter3DF.h" />
+    <ClInclude Include="ShellImporter3DF.h" />
+    <ClInclude Include="ModelImporter3DF.h" />
+    <ClInclude Include="SmartSegment.h" />
+    <ClInclude Include="Utilities3DF.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CurvesImporter3DF.cpp" />
+    <ClCompile Include="DefinitionRepository3DF.cpp" />
+    <ClCompile Include="GeometryImporter3DF.cpp" />
+    <ClCompile Include="GroupRepository3DF.cpp" />
+    <ClCompile Include="HIOUtilitySKP.cpp" />
+    <ClCompile Include="ImageRepository3DF.cpp" />
+    <ClCompile Include="DefinitionInstancesImporter3DF.cpp" />
+    <ClCompile Include="LinesImporter3DF.cpp" />
+    <ClCompile Include="ImageTexturedShellImporter3DF.cpp" />
+    <ClCompile Include="PolylinesImporter3DF.cpp" />
+    <ClCompile Include="SegmentKey3DF.cpp" />
+    <ClCompile Include="SegmentOrganizer3DF.cpp" />
+    <ClCompile Include="ShellImporter3DF.cpp" />
+    <ClCompile Include="ModelImporter3DF.cpp" />
+    <ClCompile Include="StyleRepository3DF.cpp" />
+    <ClCompile Include="TextureRepository3DF.cpp" />
+    <ClCompile Include="Utilities3DF.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

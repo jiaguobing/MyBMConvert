@@ -1,0 +1,15 @@
+
+This is a modified and cutdown version of ImageMagick.
+
+It is based on the ImageMagick-6.2.6-0-windows-source.zip package
+available from http://www.imagemagick.org/
+
+The makefile and projects are custom.
+
+magick/magick-config.h
+magick/static.c
+
+have be modified.
+
+
+

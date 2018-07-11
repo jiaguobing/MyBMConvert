@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DFAC362-AECA-4885-9121-44B43CCF9958}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>hoops_mvo2120_cs12</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\..\..\signing_key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HCSMVO</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Win32' ">
+    <OutputPath>..\..\..\bin\nt_i386_vc12d\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
+    <OutputPath>..\..\..\bin\nt_i386_vc12\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\bin\nt_x64_vc12d\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_M_X64;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\..\..\bin\nt_x64_vc12\</OutputPath>
+    <DefineConstants>TRACE;_M_X64;WIN64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csharp_mvo\AbsoluteWindowType.cs" />
+    <Compile Include="csharp_mvo\AxisMode.cs" />
+    <Compile Include="csharp_mvo\BREP_CoEdge.cs" />
+    <Compile Include="csharp_mvo\BREP_Edge.cs" />
+    <Compile Include="csharp_mvo\BREP_Face.cs" />
+    <Compile Include="csharp_mvo\BREP_Topology.cs" />
+    <Compile Include="csharp_mvo\ColorPiece.cs" />
+    <Compile Include="csharp_mvo\ColorPieceList.cs" />
+    <Compile Include="csharp_mvo\ConstFRType.cs" />
+    <Compile Include="csharp_mvo\DetailChangeMode.cs" />
+    <Compile Include="csharp_mvo\DisplayListType.cs" />
+    <Compile Include="csharp_mvo\FaceWithNormalInfo.cs" />
+    <Compile Include="csharp_mvo\FramerateMode.cs" />
+    <Compile Include="csharp_mvo\HANIChannelType.cs" />
+    <Compile Include="csharp_mvo\HANIKeyframeType.cs" />
+    <Compile Include="csharp_mvo\HANIRotationType.cs" />
+    <Compile Include="csharp_mvo\HAbsoluteWindow.cs" />
+    <Compile Include="csharp_mvo\HActivityType.cs" />
+    <Compile Include="csharp_mvo\HAnimationListener.cs" />
+    <Compile Include="csharp_mvo\HBSurfVertex.cs" />
+    <Compile Include="csharp_mvo\HBaseGraph.cs" />
+    <Compile Include="csharp_mvo\HBaseModel.cs" />
+    <Compile Include="csharp_mvo\HBaseOperator.cs" />
+    <Compile Include="csharp_mvo\HBaseView.cs" />
+    <Compile Include="csharp_mvo\HBhvAnimation.cs" />
+    <Compile Include="csharp_mvo\HBhvBehaviorManager.cs" />
+    <Compile Include="csharp_mvo\HBhvCameraType.cs" />
+    <Compile Include="csharp_mvo\HBhvUtility.cs" />
+    <Compile Include="csharp_mvo\HBhvTargetObject.cs" />
+    <Compile Include="csharp_mvo\HBloomShape.cs" />
+    <Compile Include="csharp_mvo\HCSMVO.cs" />
+    <Compile Include="csharp_mvo\HCSMVOPINVOKE.cs" />
+    <Compile Include="csharp_mvo\HCamera.cs" />
+    <Compile Include="csharp_mvo\HConstFRSimpType.cs" />
+    <Compile Include="csharp_mvo\HConstantFrameRate.cs" />
+    <Compile Include="csharp_mvo\HConstrainType.cs" />
+    <Compile Include="csharp_mvo\HCutGeometryVisibility.cs" />
+    <Compile Include="csharp_mvo\HDB.cs" />
+    <Compile Include="csharp_mvo\HDebugZBuffer.cs" />
+    <Compile Include="csharp_mvo\HDwgViewVector.cs" />
+    <Compile Include="csharp_mvo\HEventInfo.cs" />
+    <Compile Include="csharp_mvo\HEventListener.cs" />
+    <Compile Include="csharp_mvo\HEventListenerItem.cs" />
+    <Compile Include="csharp_mvo\HEventListenerManager.cs" />
+    <Compile Include="csharp_mvo\HEventListenerType.cs" />
+    <Compile Include="csharp_mvo\HEventManager.cs" />
+    <Compile Include="csharp_mvo\HEventType.cs" />
+    <Compile Include="csharp_mvo\HFileIOResult.cs" />
+    <Compile Include="csharp_mvo\HFitWorldListener.cs" />
+    <Compile Include="csharp_mvo\HFrExtent.cs" />
+    <Compile Include="csharp_mvo\HFrLodClamp.cs" />
+    <Compile Include="csharp_mvo\HFrLodThreshold.cs" />
+    <Compile Include="csharp_mvo\HFrNoSimp.cs" />
+    <Compile Include="csharp_mvo\HFrNoSimpAA.cs" />
+    <Compile Include="csharp_mvo\HFrSolidBBox.cs" />
+    <Compile Include="csharp_mvo\HFrWireframe.cs" />
+    <Compile Include="csharp_mvo\HFrWireframeBBox.cs" />
+    <Compile Include="csharp_mvo\HGraphAxis.cs" />
+    <Compile Include="csharp_mvo\HGraphAxisScale.cs" />
+    <Compile Include="csharp_mvo\HGraphAxisSelection.cs" />
+    <Compile Include="csharp_mvo\HGraphDataSetNode.cs" />
+    <Compile Include="csharp_mvo\HGraphGridType.cs" />
+    <Compile Include="csharp_mvo\HGraphLabelNode.cs" />
+    <Compile Include="csharp_mvo\HGraphLegend.cs" />
+    <Compile Include="csharp_mvo\HGraphLegendEntryType.cs" />
+    <Compile Include="csharp_mvo\HGraphPieSlice.cs" />
+    <Compile Include="csharp_mvo\HGraphPlotType.cs" />
+    <Compile Include="csharp_mvo\HGraphPointFormat.cs" />
+    <Compile Include="csharp_mvo\HHardShadow.cs" />
+    <Compile Include="csharp_mvo\HIMCG_Body_Type.cs" />
+    <Compile Include="csharp_mvo\HIMCG_Cutting_Type.cs" />
+    <Compile Include="csharp_mvo\HIOConnector.cs" />
+    <Compile Include="csharp_mvo\HIOManager.cs" />
+    <Compile Include="csharp_mvo\HIONoticeCallback.cs" />
+    <Compile Include="csharp_mvo\HIOPercentNoticeCallback.cs" />
+    <Compile Include="csharp_mvo\HIOUtilityPDF.cs" />
+    <Compile Include="csharp_mvo\HImCuttingGeometry.cs" />
+    <Compile Include="csharp_mvo\HImErrorHandler.cs" />
+    <Compile Include="csharp_mvo\HImManager.cs" />
+    <Compile Include="csharp_mvo\HImUtility.cs" />
+    <Compile Include="csharp_mvo\HInputHandler.cs" />
+    <Compile Include="csharp_mvo\HInputHandlerOptions.cs" />
+    <Compile Include="csharp_mvo\HInputHandlerStyle.cs" />
+    <Compile Include="csharp_mvo\HIntRectangle.cs" />
+    <Compile Include="csharp_mvo\HJoyStickListener.cs" />
+    <Compile Include="csharp_mvo\HLRMode.cs" />
+    <Compile Include="csharp_mvo\HMarkupManager.cs" />
+    <Compile Include="csharp_mvo\HMaterialLibrary.cs" />
+    <Compile Include="csharp_mvo\HMergeShellFace.cs" />
+    <Compile Include="csharp_mvo\HModelInfo.cs" />
+    <Compile Include="csharp_mvo\HMouseListener.cs" />
+    <Compile Include="csharp_mvo\HNurbsSurface.cs" />
+    <Compile Include="csharp_mvo\HObject.cs" />
+    <Compile Include="csharp_mvo\HObjectManager.cs" />
+    <Compile Include="csharp_mvo\HObjectManipulationListener.cs" />
+    <Compile Include="csharp_mvo\HOldSelItem.cs" />
+    <Compile Include="csharp_mvo\HOpCameraManipulate.cs" />
+    <Compile Include="csharp_mvo\HOpCameraManipulateTouch.cs" />
+    <Compile Include="csharp_mvo\HOpCameraOrbit.cs" />
+    <Compile Include="csharp_mvo\HOpCameraOrbitTurntable.cs" />
+    <Compile Include="csharp_mvo\HOpCameraPan.cs" />
+    <Compile Include="csharp_mvo\HOpCameraPanTouch.cs" />
+    <Compile Include="csharp_mvo\HOpCameraRelativeOrbit.cs" />
+    <Compile Include="csharp_mvo\HOpCameraRollTouch.cs" />
+    <Compile Include="csharp_mvo\HOpCameraWalk.cs" />
+    <Compile Include="csharp_mvo\HOpCameraZoom.cs" />
+    <Compile Include="csharp_mvo\HOpCameraZoomBox.cs" />
+    <Compile Include="csharp_mvo\HOpCameraZoomTouch.cs" />
+    <Compile Include="csharp_mvo\HOpConstructCircle.cs" />
+    <Compile Include="csharp_mvo\HOpConstructCone.cs" />
+    <Compile Include="csharp_mvo\HOpConstructCuboid.cs" />
+    <Compile Include="csharp_mvo\HOpConstructCylinder.cs" />
+    <Compile Include="csharp_mvo\HOpConstructNurbsCurve.cs" />
+    <Compile Include="csharp_mvo\HOpConstructPolyline.cs" />
+    <Compile Include="csharp_mvo\HOpConstructRectangle.cs" />
+    <Compile Include="csharp_mvo\HOpConstructSphere.cs" />
+    <Compile Include="csharp_mvo\HOpCreateBoolean.cs" />
+    <Compile Include="csharp_mvo\HOpCreateCircle.cs" />
+    <Compile Include="csharp_mvo\HOpCreateCone.cs" />
+    <Compile Include="csharp_mvo\HOpCreateCuboid.cs" />
+    <Compile Include="csharp_mvo\HOpCreateCuttingPlane.cs" />
+    <Compile Include="csharp_mvo\HOpCreateCylinder.cs" />
+    <Compile Include="csharp_mvo\HOpCreateNurbs3D.cs" />
+    <Compile Include="csharp_mvo\HOpCreateNurbsCurve.cs" />
+    <Compile Include="csharp_mvo\HOpCreatePolyline.cs" />
+    <Compile Include="csharp_mvo\HOpCreateRectangle.cs" />
+    <Compile Include="csharp_mvo\HOpCreateSphere.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupAnnotate.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupCircle.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupFreehand.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupMeasure.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupPostIt.cs" />
+    <Compile Include="csharp_mvo\HOpMarkupRectangle.cs" />
+    <Compile Include="csharp_mvo\HOpMoveHandle.cs" />
+    <Compile Include="csharp_mvo\HOpNavCube.cs" />
+    <Compile Include="csharp_mvo\HOpNetwork.cs" />
+    <Compile Include="csharp_mvo\HOpObjectAnnotate.cs" />
+    <Compile Include="csharp_mvo\HOpObjectClash.cs" />
+    <Compile Include="csharp_mvo\HOpObjectRotate.cs" />
+    <Compile Include="csharp_mvo\HOpObjectTranslate.cs" />
+    <Compile Include="csharp_mvo\HOpSelectAperture.cs" />
+    <Compile Include="csharp_mvo\HOpSelectArea.cs" />
+    <Compile Include="csharp_mvo\HOpSelectPolygon.cs" />
+    <Compile Include="csharp_mvo\HOpSelectPolyline.cs" />
+    <Compile Include="csharp_mvo\HOperatorReturn.cs" />
+    <Compile Include="csharp_mvo\HOutputHandler.cs" />
+    <Compile Include="csharp_mvo\HOutputHandlerOptions.cs" />
+    <Compile Include="csharp_mvo\HOutputHandlerStyle.cs" />
+    <Compile Include="csharp_mvo\HPieChart.cs" />
+    <Compile Include="csharp_mvo\HPixelRGB.cs" />
+    <Compile Include="csharp_mvo\HPixelRGBA.cs" />
+    <Compile Include="csharp_mvo\HPlane.cs" />
+    <Compile Include="csharp_mvo\HPlaneKey.cs" />
+    <Compile Include="csharp_mvo\HPlot2D.cs" />
+    <Compile Include="csharp_mvo\HPoint.cs" />
+    <Compile Include="csharp_mvo\HPointKey.cs" />
+    <Compile Include="csharp_mvo\HPolyline.cs" />
+    <Compile Include="csharp_mvo\HPrcBrepCompression.cs" />
+    <Compile Include="csharp_mvo\HPVOOptions.cs" />
+    <Compile Include="csharp_mvo\HQuadTree.cs" />
+    <Compile Include="csharp_mvo\HQuadTreeItem.cs" />
+    <Compile Include="csharp_mvo\HQuadTreeNode.cs" />
+    <Compile Include="csharp_mvo\HQuadtreeInsertStatus.cs" />
+    <Compile Include="csharp_mvo\HQuat.cs" />
+    <Compile Include="csharp_mvo\HQuickMovesMethod.cs" />
+    <Compile Include="csharp_mvo\HRectangle.cs" />
+    <Compile Include="csharp_mvo\HRefSelType.cs" />
+    <Compile Include="csharp_mvo\HRegionEdgeHighlightMode.cs" />
+    <Compile Include="csharp_mvo\HRegionFaceHighlightMode.cs" />
+    <Compile Include="csharp_mvo\HRegionSelItem.cs" />
+    <Compile Include="csharp_mvo\HRenderMode.cs" />
+    <Compile Include="csharp_mvo\HSelectLevel.cs" />
+    <Compile Include="csharp_mvo\HSelectionHighlightMode.cs" />
+    <Compile Include="csharp_mvo\HSelectionItem.cs" />
+    <Compile Include="csharp_mvo\HSelectionSet.cs" />
+    <Compile Include="csharp_mvo\HSensorListener.cs" />
+    <Compile Include="csharp_mvo\HShadow.cs" />
+    <Compile Include="csharp_mvo\HShadowMode.cs" />
+    <Compile Include="csharp_mvo\HShadowRenderingMode.cs" />
+    <Compile Include="csharp_mvo\HShell.cs" />
+    <Compile Include="csharp_mvo\HShellEdge.cs" />
+    <Compile Include="csharp_mvo\HShellFace.cs" />
+    <Compile Include="csharp_mvo\HShellObject.cs" />
+    <Compile Include="csharp_mvo\HShellRegion.cs" />
+    <Compile Include="csharp_mvo\HShellVertexData.cs" />
+    <Compile Include="csharp_mvo\HShellWrapper.cs" />
+    <Compile Include="csharp_mvo\HShowContentsWithPathType.cs" />
+    <Compile Include="csharp_mvo\HSignal.cs" />
+    <Compile Include="csharp_mvo\HSmartSelItem.cs" />
+    <Compile Include="csharp_mvo\HSmoothShadow.cs" />
+    <Compile Include="csharp_mvo\HSnapGrid.cs" />
+    <Compile Include="csharp_mvo\HSubentitySelItem.cs" />
+    <Compile Include="csharp_mvo\HSurfaceType.cs" />
+    <Compile Include="csharp_mvo\HTCStyle.cs" />
+    <Compile Include="csharp_mvo\HTClient.cs" />
+    <Compile Include="csharp_mvo\HTManager.cs" />
+    <Compile Include="csharp_mvo\HTouchInfo.cs" />
+    <Compile Include="csharp_mvo\HTouchManager.cs" />
+    <Compile Include="csharp_mvo\HU3DOptions.cs" />
+    <Compile Include="csharp_mvo\HUndoItem.cs" />
+    <Compile Include="csharp_mvo\HUndoItemCamera.cs" />
+    <Compile Include="csharp_mvo\HUndoItemMatrix.cs" />
+    <Compile Include="csharp_mvo\HUndoManager.cs" />
+    <Compile Include="csharp_mvo\HUnicodeOptions.cs" />
+    <Compile Include="csharp_mvo\HUpdateListener.cs" />
+    <Compile Include="csharp_mvo\HUserOptions.cs" />
+    <Compile Include="csharp_mvo\HUtility.cs" />
+    <Compile Include="csharp_mvo\HUtilityAnnotation.cs" />
+    <Compile Include="csharp_mvo\HUtilityAnnotationMeasure.cs" />
+    <Compile Include="csharp_mvo\HUtilityGeomHandle.cs" />
+    <Compile Include="csharp_mvo\HUtilityGeometryCreation.cs" />
+    <Compile Include="csharp_mvo\HUtilitySparseShell.cs" />
+    <Compile Include="csharp_mvo\HUtilityTextParser.cs" />
+    <Compile Include="csharp_mvo\HVerticalUtility.cs" />
+    <Compile Include="csharp_mvo\HViewSelectionLevel.cs" />
+    <Compile Include="csharp_mvo\HWindowCorner.cs" />
+    <Compile Include="csharp_mvo\HandednessMode.cs" />
+    <Compile Include="csharp_mvo\LightingIntMode.cs" />
+    <Compile Include="csharp_mvo\MultiThreadingType.cs" />
+    <Compile Include="csharp_mvo\PairToIndex.cs" />
+    <Compile Include="csharp_mvo\ProjMode.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_float.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HBhvCameraType.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HBhvInterpolator.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HBhvSensor.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HBhvTimeline.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HButtonState.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HConditionStyleKeyInfoHash.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HGraphLegendEntryType.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_DC_Point.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Geometry.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Int_Rectangle.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Polyline.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Rendition.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Segment_Info.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HIC_Text_Info.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HImageRegion.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HSelectionSegmentConditionInfo.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HSelList.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HSharedKey.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HUtilityAntialiasing.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HUtilityXMLGenerator.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HUtilityXMLTag.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_HVHashPShowCache.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_int.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_TrailInterpolatorType.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_VArrayT_HGraphLabelNode_p_t.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_float_float_p_void__bool.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_p_q_const__HIC_Rendition__void.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_p_q_const__char_int_a___p_q_const__char_r_int__void.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_p_q_const__char_unsigned_int_p_void__void.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_p_void__p_void.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_p_void__void.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_f_unsigned_int_r_int__bool.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_HC_KEY.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_HConstFRSimpType.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_HKeyframe.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_HPoint.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_int.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_p_HConstFRSimpType.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_p_vlist_s.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_vhash_s.cs" />
+    <Compile Include="csharp_mvo\ShadowPlaneType.cs" />
+    <Compile Include="csharp_mvo\SharedVertex.cs" />
+    <Compile Include="csharp_mvo\ShellInfo.cs" />
+    <Compile Include="csharp_mvo\ShellToRegionMapper.cs" />
+    <Compile Include="csharp_mvo\SplatSymbol.cs" />
+    <Compile Include="csharp_mvo\SWIGTYPE_p_vlist_s.cs" />
+    <Compile Include="csharp_mvo\TK_Dispatch_XML.cs" />
+    <Compile Include="csharp_mvo\UpDirection.cs" />
+    <Compile Include="csharp_mvo\ViewMode.cs" />
+    <Compile Include="csharp_mvo\ViewUpdateMode.cs" />
+    <Compile Include="csharp_mvo\delimiter_full_t.cs" />
+    <Compile Include="csharp_mvo\delimiter_t.cs" />
+    <Compile Include="csharp_mvo\hcsmvoinfo.cs" />
+    <Compile Include="csharp_mvo\H_OUTPUT_TYPE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\hoops_stream\source\hcsstream_cs12.csproj">
+      <Project>{5BCB8A7E-590E-41D0-B9E5-1EB0C83A0F69}</Project>
+      <Name>hcsstream_cs12</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>set signfile="$(ProjectDir)..\..\..\signing_key.snk"
+if not exist %25signfile%25 call "$(DevEnvDir)..\Tools\vsvars32.bat" &amp; sn -k %25signfile%25</PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

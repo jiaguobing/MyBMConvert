@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7b7f0da9-cdf8-4ad4-a532-584eb4952f29}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Jpeg">
+      <UniqueIdentifier>{d8d93b44-5e0e-4d74-b142-de76b59d27d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{43bebdc2-708c-4272-bda3-5df271135528}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{ba6cfd51-d679-45f5-8e19-1488143af5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib-1.2.5">
+      <UniqueIdentifier>{ba60843b-7de1-4114-9028-5c9c7732785d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stream_common\BAscii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BCompressData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BEdgeBreakerCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BEdgeBreakerCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BEdgeBreakerDecompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BOpcodeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BOpcodeShellAscii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BOpcodeShell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BPointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BPolyhedronAscii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BPolyhedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BPolyPoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\BStreamFileToolkit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcapimin.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcapistd.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jccoefct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jccolor.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcdctmgr.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jchuff.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcinit.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcmainct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcmarker.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcmaster.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcomapi.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcparam.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcphuff.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcprepct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jcsample.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jctrans.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdapimin.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdapistd.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdatadst.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdatasrc.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdcoefct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdcolor.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jddctmgr.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdhuff.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdinput.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdmainct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdmarker.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdmaster.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdmerge.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdphuff.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdpostct.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdsample.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jdtrans.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jerror.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jfdctflt.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jfdctfst.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jfdctint.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jidctflt.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jidctfst.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jidctint.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jidctred.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jmemmgr.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jmemnobs.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jquant1.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jquant2.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\Jpeg\jutils.c">
+      <Filter>Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_common\vwrapper_stream.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\adler32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\compress.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\crc32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\deflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzclose.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzlib.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzread.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\gzwrite.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\infback.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inffast.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\inftrees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\trees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\uncompr.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdParty\zlib-1.2.5\zutil.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jchuff.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jdct.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jdhuff.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jerror.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jinclude.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jmemsys.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jmorecfg.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jpegint.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jpeglib.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\Jpeg\jversion.h">
+      <Filter>Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_common\vwrapper_stream.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\crc32.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\deflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\gzguts.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inffast.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inffixed.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\inftrees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\trees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\win_zconf.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\zlib.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdParty\zlib-1.2.5\zutil.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\3rdParty\Jpeg\jconfig.vc">
+      <Filter>Jpeg</Filter>
+    </None>
+  </ItemGroup>
+</Project>
