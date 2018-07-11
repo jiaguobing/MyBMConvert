@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C913F159-2116-4673-9C0B-CFFE6D259F21}</ProjectGuid>
+    <RootNamespace>BM23DTile</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>../GDAL201/include;../SQLite;../openssl/include;../HOOPS/Dev_Tools/3rdParty/ImageMagick;../HOOPS/Dev_Tools/hoops_stream/source;../HOOPS/Dev_Tools/base_stream/source/stream_common;../HOOPS/Dev_Tools/hoops_3dgs/source;$(IncludePath)</IncludePath>
+    <LibraryPath>../HOOPS/bin/nt_x64_vc12;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>../GDAL201/include;../SQLite;../openssl/include;../HOOPS/Dev_Tools/3rdParty/ImageMagick;../HOOPS/Dev_Tools/hoops_3dgs/source;../HOOPS/Dev_Tools/base_stream/source/stream_common;../HOOPS/Dev_Tools/hoops_stream/source;$(IncludePath)</IncludePath>
+    <LibraryPath>../HOOPS/bin/nt_x64_vc12d;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../openssl/include;../HOOPS/Dev_Tools/3rdParty/ImageMagick;../HOOPS/Dev_Tools/hoops_3dgs/source;../HOOPS/Dev_Tools/base_stream/source/stream_common;../HOOPS/Dev_Tools/hoops_stream/source;$(IncludePath)$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>../HOOPS/bin/nt_i386_vc12d;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>../openssl/include;../HOOPS/Dev_Tools/3rdParty/ImageMagick;../HOOPS/Dev_Tools/hoops_3dgs/source;../HOOPS/Dev_Tools/base_stream/source/stream_common;../HOOPS/Dev_Tools/hoops_stream/source;$(IncludePath)$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>../HOOPS/bin/nt_i386_vc12;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Ahoy\Parser.cpp" />
+    <ClCompile Include="..\Ahoy\TypedOption.cpp" />
+    <ClCompile Include="..\GLTF\Base64.cpp" />
+    <ClCompile Include="..\GLTF\BMFile\BMConvert.cpp" />
+    <ClCompile Include="..\GLTF\BMFile\BMQuadtreeNode.cpp" />
+    <ClCompile Include="..\GLTF\BMFile\SqliteHelper.cpp" />
+    <ClCompile Include="..\GLTF\BMFile\TessellationCylinder.cpp" />
+    <ClCompile Include="..\GLTF\GLTFAccessor.cpp" />
+    <ClCompile Include="..\GLTF\GLTFAnimation.cpp" />
+    <ClCompile Include="..\GLTF\GLTFAsset.cpp" />
+    <ClCompile Include="..\GLTF\GLTFBuffer.cpp" />
+    <ClCompile Include="..\GLTF\GLTFBufferView.cpp" />
+    <ClCompile Include="..\GLTF\GLTFCamera.cpp" />
+    <ClCompile Include="..\GLTF\GLTFImage.cpp" />
+    <ClCompile Include="..\GLTF\GLTFMaterial.cpp" />
+    <ClCompile Include="..\GLTF\GLTFMesh.cpp" />
+    <ClCompile Include="..\GLTF\GLTFNode.cpp" />
+    <ClCompile Include="..\GLTF\GLTFObject.cpp" />
+    <ClCompile Include="..\GLTF\GLTFPrimitive.cpp" />
+    <ClCompile Include="..\GLTF\GLTFProgram.cpp" />
+    <ClCompile Include="..\GLTF\GLTFSampler.cpp" />
+    <ClCompile Include="..\GLTF\GLTFScene.cpp" />
+    <ClCompile Include="..\GLTF\GLTFShader.cpp" />
+    <ClCompile Include="..\GLTF\GLTFSkin.cpp" />
+    <ClCompile Include="..\GLTF\GLTFTechnique.cpp" />
+    <ClCompile Include="..\GLTF\GLTFTexture.cpp" />
+    <ClCompile Include="..\GLTF\LODBMFile\LODBMConvert.cpp" />
+    <ClCompile Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.cpp" />
+    <ClCompile Include="..\GLTF\Terrain\Terrain.cpp" />
+    <ClCompile Include="ExtractHSFFromB3D.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Ahoy\ahoy.h" />
+    <ClInclude Include="..\Ahoy\Controller.h" />
+    <ClInclude Include="..\Ahoy\Option.h" />
+    <ClInclude Include="..\Ahoy\Parser.h" />
+    <ClInclude Include="..\Ahoy\TypedOption.h" />
+    <ClInclude Include="..\GLTF\Base64.h" />
+    <ClInclude Include="..\GLTF\BMFile\BMConvert.h" />
+    <ClInclude Include="..\GLTF\BMFile\BMNode.h" />
+    <ClInclude Include="..\GLTF\BMFile\BMQuadtreeNode.h" />
+    <ClInclude Include="..\GLTF\BMFile\SqliteHelper.h" />
+    <ClInclude Include="..\GLTF\BMFile\TessellationCylinder.h" />
+    <ClInclude Include="..\GLTF\GLTFAccessor.h" />
+    <ClInclude Include="..\GLTF\GLTFAnimation.h" />
+    <ClInclude Include="..\GLTF\GLTFAsset.h" />
+    <ClInclude Include="..\GLTF\GLTFBuffer.h" />
+    <ClInclude Include="..\GLTF\GLTFBufferView.h" />
+    <ClInclude Include="..\GLTF\GLTFCamera.h" />
+    <ClInclude Include="..\GLTF\GLTFConstants.h" />
+    <ClInclude Include="..\GLTF\GLTFExtension.h" />
+    <ClInclude Include="..\GLTF\GLTFImage.h" />
+    <ClInclude Include="..\GLTF\GLTFMaterial.h" />
+    <ClInclude Include="..\GLTF\GLTFMesh.h" />
+    <ClInclude Include="..\GLTF\GLTFNode.h" />
+    <ClInclude Include="..\GLTF\GLTFObject.h" />
+    <ClInclude Include="..\GLTF\GLTFOptions.h" />
+    <ClInclude Include="..\GLTF\GLTFPrimitive.h" />
+    <ClInclude Include="..\GLTF\GLTFProgram.h" />
+    <ClInclude Include="..\GLTF\GLTFSampler.h" />
+    <ClInclude Include="..\GLTF\GLTFScene.h" />
+    <ClInclude Include="..\GLTF\GLTFShader.h" />
+    <ClInclude Include="..\GLTF\GLTFSkin.h" />
+    <ClInclude Include="..\GLTF\GLTFTechnique.h" />
+    <ClInclude Include="..\GLTF\GLTFTexture.h" />
+    <ClInclude Include="..\GLTF\LODBMFile\LODBMConvert.h" />
+    <ClInclude Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.h" />
+    <ClInclude Include="..\GLTF\Terrain\Terrain.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="ExtractHSFFromB3D.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

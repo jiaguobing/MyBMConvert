@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ahoy">
+      <UniqueIdentifier>{cb803904-5b98-41a8-b6d3-020729ce9d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{b146bc76-8f9c-4233-9eb5-ef7eb07504b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF\BMFile">
+      <UniqueIdentifier>{80a45a70-9f04-46d6-9c46-d89f44baffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF\LODBMFile">
+      <UniqueIdentifier>{5541119a-1bac-4856-8b7d-28029c778592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF\Terrain">
+      <UniqueIdentifier>{f98d6a85-664d-4b9a-a7b2-d858cf2da4f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ahoy\Parser.cpp">
+      <Filter>Ahoy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ahoy\TypedOption.cpp">
+      <Filter>Ahoy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\Base64.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFAccessor.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFAnimation.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFAsset.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFBuffer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFBufferView.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFCamera.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFImage.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFMaterial.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFMesh.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFNode.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFObject.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFPrimitive.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFProgram.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFSampler.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFScene.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFShader.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFSkin.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFTechnique.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\GLTFTexture.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\BMFile\BMConvert.cpp">
+      <Filter>GLTF\BMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\BMFile\BMQuadtreeNode.cpp">
+      <Filter>GLTF\BMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\BMFile\TessellationCylinder.cpp">
+      <Filter>GLTF\BMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractHSFFromB3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\LODBMFile\LODBMConvert.cpp">
+      <Filter>GLTF\LODBMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.cpp">
+      <Filter>GLTF\LODBMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\BMFile\SqliteHelper.cpp">
+      <Filter>GLTF\BMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\Terrain\Terrain.cpp">
+      <Filter>GLTF\Terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ahoy\ahoy.h">
+      <Filter>Ahoy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ahoy\Controller.h">
+      <Filter>Ahoy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ahoy\Option.h">
+      <Filter>Ahoy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ahoy\Parser.h">
+      <Filter>Ahoy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ahoy\TypedOption.h">
+      <Filter>Ahoy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\Base64.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFAccessor.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFAnimation.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFBuffer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFBufferView.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFCamera.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFConstants.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFExtension.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFImage.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFMaterial.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFMesh.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFNode.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFObject.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFOptions.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFPrimitive.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFProgram.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFSampler.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFScene.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFShader.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFSkin.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFTechnique.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\GLTFTexture.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\BMFile\BMConvert.h">
+      <Filter>GLTF\BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\BMFile\BMNode.h">
+      <Filter>GLTF\BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\BMFile\BMQuadtreeNode.h">
+      <Filter>GLTF\BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\BMFile\TessellationCylinder.h">
+      <Filter>GLTF\BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractHSFFromB3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\LODBMFile\LODBMConvert.h">
+      <Filter>GLTF\LODBMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.h">
+      <Filter>GLTF\LODBMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\BMFile\SqliteHelper.h">
+      <Filter>GLTF\BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\Terrain\Terrain.h">
+      <Filter>GLTF\Terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

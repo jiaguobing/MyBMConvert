@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>b3d23dtile !inputDem d:/TerrainTEST/dem.tif !inputImage d:/TerrainTEST/image.tif !output d:/TerrainTEST/temp</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>b3d23dtile !inputLOD d:/11/11 !output d:/11/11/temp      !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>b3d23dtile !input d:/123456.hsf !output d:/BMTEST !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0 !x1 -68.573 !y1 -59.252 !z1 20 !l1 113.23844564 !b1 23.09224637 !h1 0.0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>b3d23dtile !input d:/123456.hsf !output d:/BMTEST !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0 !x1 -68.573 !y1 -59.252 !z1 20 !l1 113.23844564 !b1 23.09224637 !h1 0.0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/5/22 15:41:24。
+     1>项目“D:\SimuFSA\BM23DTile\BM23DTile\BM23DTile.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\Ahoy\Parser.cpp ..\Ahoy\TypedOption.cpp main.cpp
+         Parser.cpp
+     1>..\Ahoy\Parser.cpp(170): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+         TypedOption.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SimuFSA\BM23DTile\x64\Release\BM23DTile.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SimuFSA\BM23DTile\x64\Release\BM23DTile.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SimuFSA\BM23DTile\x64\Release\BM23DTile.lib" /MACHINE:X64 x64\Release\Parser.obj
+         x64\Release\TypedOption.obj
+         x64\Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         BM23DTile.vcxproj -> D:\SimuFSA\BM23DTile\x64\Release\BM23DTile.exe
+     1>已完成生成项目“D:\SimuFSA\BM23DTile\BM23DTile\BM23DTile.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.57
