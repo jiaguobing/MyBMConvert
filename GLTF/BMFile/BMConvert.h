@@ -64,7 +64,7 @@ namespace GLTF {
 	private:
 		void ConvertB3DM(BMQuadtreeNode* pQuadtreeNode);
 		void WriteJSON(double _transform[16]);
-	private:
+	public:
 		//origin = {104.07048834,30.66109327,0.0}---cesium
 		void EastNorthUpToFixedFrame(BMVertexDD& origin, double matrix[16]);
 		//matrix ”“ £ pt

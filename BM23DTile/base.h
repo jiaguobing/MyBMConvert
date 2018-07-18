@@ -21,7 +21,7 @@
 #pragma comment(lib,"../openssl/static/libx64/libeay32.lib") 
 #pragma comment(lib,"../openssl/static/libx64/ssleay32.lib") 
 #pragma comment(lib,"../GDAL201/lib/gdal_i.lib") 
-#pragma comment(lib,"../SQLite/x64/SimuDb_static_x64.lib")
+#pragma comment(lib,"../SQLite/x64/SimuDb_static_x64_d.lib")
 #endif  
 
 #else  

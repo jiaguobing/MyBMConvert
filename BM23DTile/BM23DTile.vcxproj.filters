@@ -28,6 +28,12 @@
     <Filter Include="GLTF\Terrain">
       <UniqueIdentifier>{f98d6a85-664d-4b9a-a7b2-d858cf2da4f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GLTF\SHP">
+      <UniqueIdentifier>{5a70a064-ae39-4dca-9741-88e09921bb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF\Obj23DTile">
+      <UniqueIdentifier>{8592c7d8-4ca7-41bd-bd34-c3b7ae78b11f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -122,6 +128,15 @@
     </ClCompile>
     <ClCompile Include="..\GLTF\Terrain\Terrain.cpp">
       <Filter>GLTF\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\Shp\WriteShp.cpp">
+      <Filter>GLTF\SHP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\OBJs23DTile\Obj23DTile.cpp">
+      <Filter>GLTF\Obj23DTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp">
+      <Filter>GLTF\Obj23DTile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -238,6 +253,15 @@
     </ClInclude>
     <ClInclude Include="..\GLTF\Terrain\Terrain.h">
       <Filter>GLTF\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\Shp\WriteShp.h">
+      <Filter>GLTF\SHP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\OBJs23DTile\Obj23DTile.h">
+      <Filter>GLTF\Obj23DTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLTF\OBJs23DTile\ObjQuadtreeNode.h">
+      <Filter>GLTF\Obj23DTile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

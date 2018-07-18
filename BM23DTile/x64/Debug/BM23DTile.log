@@ -1,15 +1,43 @@
-﻿生成启动时间为 2018/7/11 20:56:38。
+﻿生成启动时间为 2018/7/18 14:04:10。
      1>项目“D:\SimuFSA\BM23DTile\BM23DTile\BM23DTile.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp main.cpp
          main.cpp
      1>d:\simufsa\bm23dtile\gltf\bmfile\BMNode.h(76): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
      1>d:\simufsa\bm23dtile\gltf\bmfile\BMNode.h(77): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
      1>d:\simufsa\bm23dtile\gltf\bmfile\BMNode.h(78): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
      1>d:\simufsa\bm23dtile\gltf\bmfile\BMNode.h(160): warning C4244: “return”: 从“long double”转换到“float”，可能丢失数据
      1>d:\simufsa\bm23dtile\gltf\bmfile\BMNode.h(305): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
-     1>main.cpp(266): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-     1>main.cpp(271): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\simufsa\bm23dtile\bm23dtile\../GLTF/OBJs23DTile/Obj23DTile.h(57): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\simufsa\bm23dtile\bm23dtile\../GLTF/OBJs23DTile/Obj23DTile.h(58): warning C4305: “参数”: 从“double”到“float”截断
+     1>main.cpp(297): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(302): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>main.cpp(313): warning C4305: “参数”: 从“double”到“float”截断
+     1>main.cpp(314): warning C4305: “参数”: 从“double”到“float”截断
+     1>main.cpp(323): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         ObjQuadtreeNode.cpp
+     1>d:\simufsa\bm23dtile\gltf\objs23dtile\../BMFile/BMNode.h(76): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\simufsa\bm23dtile\gltf\objs23dtile\../BMFile/BMNode.h(77): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\simufsa\bm23dtile\gltf\objs23dtile\../BMFile/BMNode.h(78): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\simufsa\bm23dtile\gltf\objs23dtile\../BMFile/BMNode.h(160): warning C4244: “return”: 从“long double”转换到“float”，可能丢失数据
+     1>d:\simufsa\bm23dtile\gltf\objs23dtile\../BMFile/BMNode.h(305): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(18): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(19): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(20): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(47): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(87): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(89): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(141): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(144): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(147): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(152): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(156): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(160): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(571): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(573): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp(575): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.lib" /MACHINE:X64 x64\Debug\Parser.obj
          x64\Debug\TypedOption.obj
@@ -39,195 +67,15 @@
          x64\Debug\GLTFTexture.obj
          x64\Debug\LODBMConvert.obj
          x64\Debug\LODBMQuadtreeNode.obj
+         x64\Debug\Obj23DTile.obj
+         x64\Debug\ObjQuadtreeNode.obj
+         x64\Debug\WriteShp.obj
          x64\Debug\Terrain.obj
          x64\Debug\ExtractHSFFromB3D.obj
          x64\Debug\main.obj
-         SimuDb_static_x64.lib(sqlite3.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
-     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
-            正在创建库 D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.lib 和对象 D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.exp
-     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-         正在生成代码
-         已完成代码的生成
-     1>SimuDb_static_x64.lib(sqlite3.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SimuDb_static_x64.lib(sqlite3.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(png.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(png.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngerror.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(pngerror.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngget.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(pngget.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngmem.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(pngmem.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngread.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(pngread.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngrio.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(pngrio.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngrtran.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(pngrtran.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngrutil.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(pngrutil.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngset.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(pngset.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngtrans.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(pngtrans.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngwio.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(pngwio.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngwrite.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(pngwrite.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngwtran.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(pngwtran.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pngwutil.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(pngwutil.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(analyze.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(analyze.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(attribute.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(attribute.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(blob.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(blob.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(bmp.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(bmp.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(cache-view.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(cache-view.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(cache.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(cache.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(client.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(client.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(coder.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(coder.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(color.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(color.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(colorspace.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(colorspace.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(composite.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(composite.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(configure.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(configure.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(constitute.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(constitute.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(decorate.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(decorate.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(delegate.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(delegate.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(deprecate.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(deprecate.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(draw.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(draw.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(effect.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(effect.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(enhance.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(enhance.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(exception.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(exception.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(fx.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(fx.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(gem.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_13.pdb”(使用“hoops_mgkstatd_md.lib(gem.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_13.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(geometry.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(geometry.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(gif.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(gif.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(hashmap.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(hashmap.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(icon.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(icon.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(identify.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(identify.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(image.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(image.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jpeg.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(jpeg.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(list.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(list.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(locale.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(locale.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(log.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(log.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(magic.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(magic.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(magick.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(magick.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(magick_compress.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(magick_compress.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(memory.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(memory.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(monitor.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(monitor.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(nt-base.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(nt-base.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(option.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(option.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(paint.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(paint.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pcx.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(pcx.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pict.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(pict.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pix.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(pix.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pixel.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(pixel.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(png_coder.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(png_coder.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(pnm.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(pnm.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(prepress.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(prepress.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(profile.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_13.pdb”(使用“hoops_mgkstatd_md.lib(profile.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_13.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(quantize.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(quantize.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(random.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(random.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(raw.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(raw.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(registry.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(registry.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(resize.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(resize.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(resource.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(resource.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(rgb.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(rgb.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(segment.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(segment.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(semaphore.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(semaphore.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(sfw.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(sfw.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(sgi.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(sgi.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(shear.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(shear.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(signature.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(signature.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(splay-tree.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(splay-tree.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(static.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(static.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(statistic.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(statistic.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(stream.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(stream.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(string.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(string.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(stubs.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(stubs.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(sun.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(sun.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tga.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_13.pdb”(使用“hoops_mgkstatd_md.lib(tga.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_13.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tiff.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(tiff.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(timer.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(timer.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(token.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(token.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(transform.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(transform.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(type.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(type.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(utility.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(utility.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(version.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(version.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(xbm.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(xbm.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(xcf.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(xcf.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(xpm.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(xpm.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcapimin.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(jcapimin.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcapistd.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(jcapistd.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jccoefct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(jccoefct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jccolor.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(jccolor.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcdctmgr.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(jcdctmgr.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jchuff.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(jchuff.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcinit.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(jcinit.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcmainct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(jcmainct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcmarker.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(jcmarker.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcmaster.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(jcmaster.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcomapi.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(jcomapi.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcparam.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(jcparam.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcphuff.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(jcphuff.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcprepct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(jcprepct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jcsample.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(jcsample.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdapimin.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(jdapimin.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdapistd.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(jdapistd.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdcoefct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(jdcoefct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdcolor.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(jdcolor.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jddctmgr.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(jddctmgr.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdhuff.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(jdhuff.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdinput.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(jdinput.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdmainct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(jdmainct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdmarker.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(jdmarker.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdmaster.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(jdmaster.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdmerge.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(jdmerge.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdphuff.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(jdphuff.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdpostct.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(jdpostct.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jdsample.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(jdsample.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jerror.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(jerror.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jfdctflt.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(jfdctflt.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jfdctfst.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(jfdctfst.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jfdctint.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(jfdctint.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jidctflt.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(jidctflt.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jidctfst.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(jidctfst.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jidctint.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(jidctint.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jidctred.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(jidctred.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jmemmgr.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(jmemmgr.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jmemnobs.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(jmemnobs.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jquant1.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(jquant1.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jquant2.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(jquant2.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(jutils.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(jutils.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_aux.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(tif_aux.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_close.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(tif_close.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_codec.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_13.pdb”(使用“hoops_mgkstatd_md.lib(tif_codec.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_13.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_color.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(tif_color.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_compress.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(tif_compress.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_dir.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(tif_dir.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_dirinfo.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_1.pdb”(使用“hoops_mgkstatd_md.lib(tif_dirinfo.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_dirread.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(tif_dirread.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_dirwrite.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(tif_dirwrite.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_dumpmode.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(tif_dumpmode.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_error.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(tif_error.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_extension.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(tif_extension.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_fax3.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(tif_fax3.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_fax3sm.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(tif_fax3sm.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_flush.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(tif_flush.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_getimage.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(tif_getimage.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_luv.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(tif_luv.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_lzw.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(tif_lzw.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_next.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(tif_next.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_open.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_3.pdb”(使用“hoops_mgkstatd_md.lib(tif_open.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_packbits.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(tif_packbits.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_predict.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_5.pdb”(使用“hoops_mgkstatd_md.lib(tif_predict.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_5.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_print.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_6.pdb”(使用“hoops_mgkstatd_md.lib(tif_print.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_6.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_read.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(tif_read.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_strip.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_2.pdb”(使用“hoops_mgkstatd_md.lib(tif_strip.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_swab.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_16.pdb”(使用“hoops_mgkstatd_md.lib(tif_swab.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_16.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_thunder.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_14.pdb”(使用“hoops_mgkstatd_md.lib(tif_thunder.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_14.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_tile.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_13.pdb”(使用“hoops_mgkstatd_md.lib(tif_tile.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_13.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_version.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(tif_version.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_warning.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(tif_warning.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_win32.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_8.pdb”(使用“hoops_mgkstatd_md.lib(tif_win32.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_8.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(tif_write.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_9.pdb”(使用“hoops_mgkstatd_md.lib(tif_write.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_9.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(adler32.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_11.pdb”(使用“hoops_mgkstatd_md.lib(adler32.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_11.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(crc32.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_7.pdb”(使用“hoops_mgkstatd_md.lib(crc32.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_7.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(deflate.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(deflate.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(inffast.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_10.pdb”(使用“hoops_mgkstatd_md.lib(inffast.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_10.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(inflate.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(inflate.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(inftrees.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(inftrees.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(trees.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_15.pdb”(使用“hoops_mgkstatd_md.lib(trees.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_15.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(uncompr.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_12.pdb”(使用“hoops_mgkstatd_md.lib(uncompr.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_12.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>hoops_mgkstatd_md.lib(zutil.obj) : warning LNK4099: 未找到 PDB“hoops_mgkstatd_md_ib_4.pdb”(使用“hoops_mgkstatd_md.lib(zutil.obj)”或在“D:\SimuFSA\BM23DTile\x64\Debug\hoops_mgkstatd_md_ib_4.pdb”中寻找)；正在链接对象，如同没有调试信息一样
          BM23DTile.vcxproj -> D:\SimuFSA\BM23DTile\x64\Debug\BM23DTile.exe
      1>已完成生成项目“D:\SimuFSA\BM23DTile\BM23DTile\BM23DTile.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:07.62
+已用时间 00:00:04.94

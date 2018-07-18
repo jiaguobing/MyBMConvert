@@ -12,6 +12,8 @@
 #include "ExtractHSFFromB3D.h"
 #include <windows.h>
 #include "../GLTF/Terrain/Terrain.h"
+#include "../GLTF/Shp/WriteShp.h"
+#include "../GLTF/OBJs23DTile/Obj23DTile.h"
 //
 using namespace std;
 using namespace ahoy;
@@ -77,6 +79,23 @@ bool B3d23Dtile(string& b3dFilePath, string& tileFolder, int tessellationNum, bo
 	}
 	//
 	contttt.Convert();
+	return true;
+}
+bool OBJ23Dtile(string& objFolder, string& tileFolder, bool embedTex,
+	float x0, float y0, float z0, float l0, float b0, float h0,
+	float x1, float y1, float z1, float l1, float b1, float h1)
+{
+	Obj23DTile ttttt;
+	ttttt.m_Cartesian = GLTF::BMVertex(x0, y0, z0);
+	ttttt.m_Cartographic = GLTF::BMVertex(l0, b0, h0);
+	//
+	ttttt.m_CartesianS = GLTF::BMVertex(x1, y1, z1);
+	ttttt.m_CartographicS = GLTF::BMVertex(l1, b1, h1);
+	//
+	ttttt.m_OBJFolder = objFolder + "/";
+	ttttt.m_EmbeddedTextures = embedTex;
+	//
+	ttttt.Convert();
 	return true;
 }
 //////////////////////////////////////////////////////////////////////////
@@ -173,6 +192,10 @@ int main(int argc, const char **argv)
 	//dem文件路径
 	string _demFilePath;
 	string _imageFilePath;
+	//obj文件夹路径
+	string _objFileFolder;
+	//
+	int _writeTXT2Shp = 0;
 	//
 	double X0(0.0), Y0(0.0), Z0(0.0);
 	double L0(0.0), B0(0.0), H0(0.0);//L经度 B纬度
@@ -188,8 +211,16 @@ int main(int argc, const char **argv)
 		->example("b3d23dtile !inputLOD d:/11/11 !output d:/destFolder      !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0 !x1 -68.573 !y1 -59.252 !z1 20 !l1 113.23844564 !b1 23.09224637 !h1 0.0")
 	    ->example("b3d23dtile !inputLOD d:/11/11 !output d:/11/11/temp      !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0")
 	    ->example("b3d23dtile !inputDem d:/TerrainTEST/dem.tif !inputImage d:/TerrainTEST/image.tif !output d:/TerrainTEST/temp");
-	//b3d23dtile !input d:/广州11号线.b3d !output d:/BMTEST      !x0 114.635 !y0 -49.224 !z0 20 !l0 113.23931614 !b0 23.09078922 !h0 0.0
+	//b3d23dtile !input d:/广州11号线.b3d !output d:/BMTEST      !x0 -6381.724 !y0 -1647.358 !z0 0 !l0 113.22474093 !b0 23.10439787 !h0 0.0
 	//b3d23dtile !inputDem d:/TerrainTEST/dem.tif !inputImage d:/TerrainTEST/image.tif !output d:/TerrainTEST/temp
+	//b3d23dtile !writeShp 1 !output d:/BMTEST 
+	//b3d23dtile !inputOBJs E:/CityEngineTest/models !output E:/CityEngineTest/3DTiles      !x0 -6381.724 !y0 -1647.358 !z0 0 !l0 113.22474093 !b0 23.10439787 !h0 0.0  !e 0
+	pParser->define("writeShp", &_writeTXT2Shp)
+		->description("txt 2 shp")->defaults(0);
+
+	pParser->define("inputOBJs", &_objFileFolder)
+		->description("obj folder");
+
 	pParser->define("inputDem", &_demFilePath)
 		->description("dem tifFilePath");
 
@@ -274,6 +305,23 @@ int main(int argc, const char **argv)
 	else if (_demFilePath != "" && _imageFilePath != "")
 	{
 		TerrainDTile(_demFilePath, _imageFilePath, _3dTileFileFolder, embedTex);
+	}
+	else if (_writeTXT2Shp == 1)
+	{
+		//注意 此处要把txt文件保存未 ansi编码
+		WriteShap rrrrr;
+		rrrrr.m_Cartesian = GLTF::BMVertex(114.635, -49.224, 20);
+		rrrrr.m_Cartographic = GLTF::BMVertex(113.23931614, 23.09078922, 0.0);
+		//rrrrr.m_TxtFile = "d:/11House.txt";
+		rrrrr.m_TxtFile = "d:/11House.txt";
+		rrrrr.m_ShpFile = "d:/11House.shp";
+		rrrrr.Write();
+		return 1;
+	}
+	else if (_objFileFolder != "")
+	{
+		OBJ23Dtile(_objFileFolder, _3dTileFileFolder, embedTex, X0, Y0, Z0, L0, B0, H0, X1, Y1, Z1, L1, B1, H1);
+		return 1;
 	}
 	else
 		return -1;

@@ -231,6 +231,7 @@ bool GLTF::BMConvert::writeAssetToFile()
 {
 	Options* options = new Options();
 	options->binary = true;
+	options->doubleSided = true;
 	options->embeddedTextures = m_EmbeddedTextures;
 	//
 	GLTF::Buffer* buffer = m_pAsset->packAccessors();
@@ -494,10 +495,10 @@ bool GLTF::BMConvert3DTile::Convert()
 	//
 	m_QuadtreeManager.m_SQLHelper.CommitTransaction();
 	//
-	//m_QuadtreeManager.CreateBMMesh(m_QuadtreeManager.m_Root);
-	//ConvertB3DM(m_QuadtreeManager.m_Root);
+	m_QuadtreeManager.CreateBMMesh(m_QuadtreeManager.m_Root);
+	ConvertB3DM(m_QuadtreeManager.m_Root);
 	//
-	//WriteJSON(_transform);
+	WriteJSON(_transform);
 	return true;
 }
 void GLTF::BMConvert3DTile::ComputeRegionBoxInDB()

@@ -409,6 +409,9 @@ namespace GLTF {
 			m_index1 = index1;
 			m_index2 = index2;
 		}
+		BMTriangle()
+		{
+		}
 		unsigned int m_index0;
 		unsigned int m_index1;
 		unsigned int m_index2;

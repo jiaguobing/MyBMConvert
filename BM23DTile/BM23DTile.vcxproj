@@ -158,6 +158,9 @@
     <ClCompile Include="..\GLTF\GLTFTexture.cpp" />
     <ClCompile Include="..\GLTF\LODBMFile\LODBMConvert.cpp" />
     <ClCompile Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.cpp" />
+    <ClCompile Include="..\GLTF\OBJs23DTile\Obj23DTile.cpp" />
+    <ClCompile Include="..\GLTF\OBJs23DTile\ObjQuadtreeNode.cpp" />
+    <ClCompile Include="..\GLTF\Shp\WriteShp.cpp" />
     <ClCompile Include="..\GLTF\Terrain\Terrain.cpp" />
     <ClCompile Include="ExtractHSFFromB3D.cpp" />
     <ClCompile Include="main.cpp" />
@@ -198,6 +201,9 @@
     <ClInclude Include="..\GLTF\GLTFTexture.h" />
     <ClInclude Include="..\GLTF\LODBMFile\LODBMConvert.h" />
     <ClInclude Include="..\GLTF\LODBMFile\LODBMQuadtreeNode.h" />
+    <ClInclude Include="..\GLTF\OBJs23DTile\Obj23DTile.h" />
+    <ClInclude Include="..\GLTF\OBJs23DTile\ObjQuadtreeNode.h" />
+    <ClInclude Include="..\GLTF\Shp\WriteShp.h" />
     <ClInclude Include="..\GLTF\Terrain\Terrain.h" />
     <ClInclude Include="base.h" />
     <ClInclude Include="ExtractHSFFromB3D.h" />
